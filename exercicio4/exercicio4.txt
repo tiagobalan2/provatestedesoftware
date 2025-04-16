@@ -1,0 +1,16 @@
+Como o Selenium funciona para Python e NodeJS
+O Selenium é uma ferramenta de automação de navegador utilizada para testes automatizados de aplicações web.
+
+Funcionamento básico do Selenium
+O Selenium funciona através de um WebDriver (uma api que controla o browser diretamente) e
+Browser Drivers, executáveis específicos para cada navegador, por exemplo o ChromeDriver
+funciona para Python e NodeJS e também para outras linguagens
+
+Selenium com o python tem como os principais componentes: o webdriver (ChromeDriver por exemplo), a classe by que é usada para localizar os elementos e o webDriverWait para fazer esperas durante a execução do código (teste)
+
+Selenium com NodeJS tem como os principais componentes: o builder que connfigura e cria instancias do webdriver em questão escolhido pela escrita do código, o by que é para localizar elementos e o until que é para fazer condições de espera
+
+Com o selenium eu consigo:
+eu consigo acessar elementos da pagina pelos ids, nomes, classes, seletores css e por XPath, consigo também fazer cliques click() , digitação, arrastar e soltar, etc. Consigo também mandar 'esperar' para lidar com assincronidade. Consigo tirar prints e também consigo mudar entre as janelas 
+
+
